@@ -1,0 +1,50 @@
+{
+  "name": "popup-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@clockworkdog/cogs-client-react": "2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "cross-env BROWSER=scripts/openSimulator.js PORT=3001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "node scripts/createManifestSymlink.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "./",
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.6.0",
+    "@types/node": "14",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "canvas-confetti": "^1.6.0",
+    "cross-env": "7",
+    "typescript": "5"
+  },
+  "overrides": {
+    "react-scripts": {
+      "typescript": "^5"
+    }
+  }
+}
