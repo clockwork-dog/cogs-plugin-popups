@@ -5,7 +5,7 @@ import manifest from "./cogs-plugin-manifest.js";
 
 function Root() {
   return (
-    <CogsConnectionProvider manifest={manifest} audioPlayer videoPlayer>
+    <CogsConnectionProvider manifest={manifest}>
       <App />
     </CogsConnectionProvider>
   );

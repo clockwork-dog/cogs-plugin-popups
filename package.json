@@ -34,11 +34,9 @@
   },
   "homepage": "./",
   "devDependencies": {
-    "@types/canvas-confetti": "^1.6.0",
     "@types/node": "14",
     "@types/react": "18",
     "@types/react-dom": "18",
-    "canvas-confetti": "^1.6.0",
     "cross-env": "7",
     "typescript": "5"
   },
